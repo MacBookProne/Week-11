@@ -1,0 +1,36 @@
+#boardHeading {
+    text-align: center;
+    font-size: 75px;
+}
+
+#playerTurn {
+    text-align: center;
+    font-size: 50px;
+}
+        .board {
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -150px;
+        }
+        .square {
+            height: 100px;
+            border: 1px solid black;
+
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #playAgain{
+            color: red;
+            cursor: pointer;
+        }
+
+        #gameResult{
+            text-align: center;
+            font-size: 25px;
+        }
